@@ -31,4 +31,8 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  v = {
+    ["<"] = { "<gv", desc = "Shift Left" },
+    [">"] = { ">gv", desc = "Shift Right" },
+  },
 }

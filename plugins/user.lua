@@ -9,4 +9,18 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  {
+    "unblevable/quick-scope",
+    event = "BufRead"
+  },
+  {
+    "github/copilot.vim",
+    lazy = false,
+  },
 }
